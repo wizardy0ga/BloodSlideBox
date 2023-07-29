@@ -1,5 +1,3 @@
-# BloodSlideBox
-
 <p align="center">
   <img src="./rsrc/img.png" alt="Dex">
 </p>
