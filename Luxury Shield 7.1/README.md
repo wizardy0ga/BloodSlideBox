@@ -41,9 +41,9 @@ There is also a contact forum that provides the visitor with the following teleg
 | SHA-1 | 65AAB7E376393E03D78D11C95E7543E1D95EFE72 | Initial RAR archive (Luxury_Shield_7.1.rar) |
 | SHA-1 | 4CB52554B2DC37939749607B9532839DE6FDF25C | Luxury Shield SFX Archive (Luxury Shield 7.1.exe) |
 | SHA-1 | 961D3AE7E69B7A39EDDA340E93986C5A7F89C097 | Crack.exe, executed by SFX Luxury Shield 7.1.exe |
-| SHA-1 | 2453DDDB4E6EBD48604FFF3094F6A59DACDC3AD7 | Luxury Shield 7.1 (Dropper) |
-| SHA-1 | 5F3740FCF89A95437CE184CFE22F23ED8B5B9254 | XWorm 3.1 disguised as WinRAR.exe, Dropped by Luxury Shield 7.1.exe |
-| SHA-1 | 3905F80A539D37C648A5DA1CC6DACE16D3516C2C | Luxury Shield 7.1.exe, Dropped by first Luxury Shield binary | 
+| SHA-1 | 2453DDDB4E6EBD48604FFF3094F6A59DACDC3AD7 | Luxury Sheild v7.1 (Dropper) |
+| SHA-1 | 5F3740FCF89A95437CE184CFE22F23ED8B5B9254 | XWorm 3.1 disguised as WinRAR.exe, Dropped by Luxury Sheild v7.1.exe |
+| SHA-1 | 3905F80A539D37C648A5DA1CC6DACE16D3516C2C | Luxury Shield 7.1.exe, Dropped by first Luxury Sheild v7.1.exe | 
 | BTC Wallet | 16LYjmErwNek2gMQkNrkLm2i1QVhjmxSRo | Retrieved from Crack.exe |
 | ETH Wallet | 0xdF0f41d46Dd8Be583F9a69b4a85A600C8Af7f4Ad | Retrieved from Crack.exe |
 | XMR Wallet | 42KwLVv18KiFRZNHzuYNocRrrGdnGbPYAGDT9oHzwh6sMk1f53SVNN26X877au2DPq73BGzLAz9VSbkdBdMPjvtn68qd4CP | Retrieved from Crack.exe |
@@ -134,7 +134,7 @@ This video displays the functionality of the malware. When the user copies a tar
   <img src="./rsrc/dynamic.gif" alt="Dynamic Analysis">
 </p>
  
- ## Analyzing Luxury Shield v7.1
+ ## Analyzing Luxury Sheild v7.1
 
 Looking at the main function, we can see that the program will exit if it can't create a mutex. Next, it will check the privileges it's been assigned. If it's not running as administrator, the program will perform a UAC bypass, [T1548.002](https://attack.mitre.org/techniques/T1548/002/). When the program is running as administrator, it will execute the method, WorkF.
 
